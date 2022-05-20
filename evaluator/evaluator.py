@@ -63,7 +63,7 @@ class HierTextEvaluator(object):
       }
       accumulators.update(accumulators_for_e2e)
     return accumulators
-
+def _get_text(self,prediction_list:TextEntityListType)
   def _get_text(self,
                 prediction_box_list: TextEntityListType,
                 gt_box_list: TextEntityListType):
